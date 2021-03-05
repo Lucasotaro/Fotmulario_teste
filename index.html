@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form git</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+    <style>
+        body{
+            background-color: rgb(34, 26, 71);
+            color: rgb(176, 180, 243);
+            text-align: left;
+            margin-top:200px;
+            font-family: 'Open Sans', sans-serif;
+            font-weight: bold;
+        }
+        #aviso{
+            font-weight: 100;
+        }
+        #alerta{
+            font-size: 9px;
+            font-weight: 100;
+        }
+        #rodape{
+            font-weight: 100;
+            background-color:rgb(8, 0, 39);
+            margin-top: 150px;
+            text-align: center;
+        }
+        input{
+            background-color: rgb(72, 81, 207);
+            border-color: rgb(0, 0, 0);
+            border-radius: 500px;
+            border-width: 2px;
+        }
+        button{
+            background-color: rgb(176, 180, 243);
+            margin-bottom: 10px;
+            border-radius: 50px;
+        }
+        #area_principal{
+            background-color: rgb(20, 9, 68);
+            border-radius: 25px;
+            margin-left: 490px;
+            margin-right: 490px;
+        }
+        #area{
+            margin-left:20px;
+        }
+    </style>
+</head>
+<body>
+    <div id="area_principal">
+        <div id="area">
+        <h1>Pagamento</h1>
+        <p id="aviso">Insira as respectivas informações do seu cartão de crédito</p>
+        <p id="alerta">(não insira dados válidos, este formúlario é apenas um teste acadêmico)</p>
+          <div>
+            <label for="nome">Nome completo:</label>
+            <input name="nome" type="text" />
+          </div>
+          <br>
+          <div>
+            <label for="number">Número do cartão:</label>
+            <input name="number"/>
+          </div>
+          <br>
+          <div>
+            <label for="valid">Insira aqui a data de validade do seu cartão:</label>
+            <input name="valid"></input>
+          </div>
+          <br>
+          <div>
+            <label for="security">Código de segurança:</label>
+            <input name="security"></input>
+          </div>
+          <br>
+          <button type="submit">Enviar informações</button>
+        </form>
+        </div>
+      </div>
+    <div id=rodape>Simulação acadêmica</div>
+</body>
+</html>
