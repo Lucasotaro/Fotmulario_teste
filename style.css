@@ -1,0 +1,48 @@
+         body {
+             background-color: rgb(34, 26, 71);
+             color: rgb(176, 180, 243);
+             text-align: left;
+             margin-top: 200px;
+             font-family: 'Open Sans', sans-serif;
+             font-weight: bold;
+         }
+         
+         #aviso {
+             font-weight: 100;
+         }
+         
+         #alerta {
+             font-size: 9px;
+             font-weight: 100;
+         }
+         
+         footer {
+             font-weight: 100;
+             background-color: rgb(8, 0, 39);
+             margin-top: 150px;
+             text-align: center;
+         }
+         
+         input {
+             background-color: rgb(72, 81, 207);
+             border-color: rgb(0, 0, 0);
+             border-radius: 500px;
+             border-width: 2px;
+         }
+         
+         button {
+             background-color: rgb(176, 180, 243);
+             margin-bottom: 10px;
+             border-radius: 50px;
+         }
+         
+         #area_principal {
+             background-color: rgb(20, 9, 68);
+             border-radius: 25px;
+             margin-left: 490px;
+             margin-right: 490px;
+         }
+         
+         #area {
+             margin-left: 20px;
+         }
