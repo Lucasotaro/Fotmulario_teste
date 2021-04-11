@@ -7,6 +7,8 @@ Para usá-lo, basta sefuir as petições da própria aba, lembrando de nunca ins
 
 De minha autoria, e uma das minhas primeiras aprendizagens da faculdade, obrigado.
 
+Para vizualização do projeto: https://lucasotaro.github.io/Fotmulario_teste/
+
 Copyright (c) [2021] [Lucas Tavares]
 
 <hr>
